@@ -1,2 +1,2 @@
 # Passport-Photo-Adjustment
-This project is for modify people photos into eligible ones used for passport.
+This project is designed to extract foreground and refine people images to meet valid passport requirements using OpenCV.

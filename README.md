@@ -9,7 +9,7 @@ SrcTest folder stores adjusted-sample-photos. You could have a glance on how wel
 
 Below are some tohughts I kept down during the progress. I found them very interesting, so I am sharing them here.
 
-Strategies:
+### Strategies:
 1. Floodfill to ensure inside parts (eyes, white clothes) to be solid.
 	Have to set up a threshold for discrimination
 	* Problem, probably unable to deal with photo taken with margins.
@@ -22,7 +22,7 @@ Strategies:
 	Give instruction of floodfill starting point.
 
 
-Progress:
+### Progress:
 1. check grabcut left shoulder problem, no blur this time.
 2. if needed, try flip graph and check left problem again.
 3. if needed, combine two mask.
@@ -34,7 +34,7 @@ Progress:
 	floodpoint: width // 10, width // 10
 
 
-Tricks:
+### Tricks:
 1. Flip image horizontally:
 	img = np.fliplr(img)
 
